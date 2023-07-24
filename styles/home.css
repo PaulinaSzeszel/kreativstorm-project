@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-family: inherit;
 }
 
 /*Hero Section*/
@@ -117,6 +122,7 @@
 
 .icon-crafts {
   width: 150px;
+  margin-bottom: 20px;
 }
 
 .fourth-block {
@@ -128,4 +134,33 @@
 
 .icon-book {
   width: 150px;
+  margin-bottom: 20px;
+}
+
+/*Quote Section*/
+.quote-block {
+  margin: 80px 0 80px 0;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  width: 60%;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: light italic;
+  margin: 80px 120px 15px 120px;
+}
+
+.author {
+  margin: 0 0 70px 450px;
+  font-size: 20px;
+  font-weight: 600;
 }
