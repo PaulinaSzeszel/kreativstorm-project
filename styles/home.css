@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/*Hero Section*/
 .hero {
   background-color: #1f2937;
   width: auto;
@@ -24,7 +25,7 @@
   width: 100px;
   height: 300px;
   flex-grow: 2;
-  margin: 0 60px 0 120px;
+  margin: 0 60px 0 180px;
 }
 
 .main-text {
@@ -44,6 +45,7 @@
   background-color: #3882f6;
   color: #e5e7eb;
   font-size: 18px;
+  font-weight: 700;
   border-radius: 10px;
   border: none;
   height: 38px;
@@ -61,4 +63,69 @@
   height: 330px;
   width: 580px;
   border-radius: 3px;
+}
+
+/*Info Section*/
+.info {
+  display: flex;
+  margin-top: 60px;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  justify-content: center;
+}
+
+.blocks {
+  display: flex;
+  height: 400px;
+  width: auto;
+  margin: 0 100px 0 100px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.first-block {
+  width: 150px;
+  height: auto;
+  margin: 0 10px 0 10px;
+  line-height: 140%;
+}
+
+.icon-game {
+  width: 150px;
+  margin-bottom: 30px;
+}
+
+.second-block {
+  width: 150px;
+  height: auto;
+  margin: 0 10px 0 10px;
+  line-height: 140%;
+}
+
+.icon-band {
+  width: 150px;
+}
+
+.third-block {
+  width: 150px;
+  height: auto;
+  margin: 0 10px 0 10px;
+  line-height: 140%;
+}
+
+.icon-crafts {
+  width: 150px;
+}
+
+.fourth-block {
+  width: 150px;
+  height: auto;
+  margin: 0 10px 0 10px;
+  line-height: 140%;
+}
+
+.icon-book {
+  width: 150px;
 }
