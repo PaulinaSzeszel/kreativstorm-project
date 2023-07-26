@@ -1,7 +1,231 @@
 :root {
-    --blue-primary: #3882f6;
-    --blue-dark: #1f2937;
-    --gray-100: #e5e7eb;
+  --blue-primary: #3882f6;
+  --blue-dark: #1f2937;
+  --white-100: #f9faf8;
+  --gray-100: #e5e7eb;
 }
 
-/*font family ,sizes and general styles will go here*/
+.txt-48 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+.txt-24 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.txt-24,
+.txt-48 {
+  color: var(--white-100);
+}
+.txt-18 {
+  font-size: 18px;
+  color: var(--gray-100);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: inherit;
+  margin: 0;
+  min-width: 250px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+input {
+  border: none;
+  outline: none;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+nav {
+  background-color: var(--blue-dark);
+  color: var(--gray-100);
+}
+nav a,footer a {
+  color: var(--gray-100);
+  font-size: 18px;
+}
+.content-container {
+  display: flex;
+  justify-content: center;
+}
+.content-container .content {
+  width: 100%;
+  max-width: 1600px;
+  padding: 0px 20px;
+}
+.nav-container {
+  width: 100%;
+}
+.btn-blue {
+  padding: 10px 20px;
+  background-color: var(--blue-primary);
+  border-radius: 5px;
+  outline: none;
+  color: var(--white-100);
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+.nav-links-cont {
+  display: none;
+}
+
+.nav-links-cont li {
+  padding: 5px 10px;
+}
+/* .course-list {
+  outline: 1px solid red;
+  display: none;
+  position: absolute;
+  top: 80px;
+  right: 50px;
+  background-color: #fff; 
+  padding: 10px;
+  min-width: 320px;
+} */
+/* .courses:hover .course-list {
+  display: block;
+} */
+.signup-btn {
+  padding: 10px 20px;
+  background-color: var(--blue-primary);
+  border-radius: 5px;
+  outline: none;
+}
+.menu {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+.menu-cont {
+  border-top: 1px solid #e7e7e993;
+}
+.menu ul {
+  padding: 20px 0px;
+}
+.menu ul > li {
+  margin: 5px 0px;
+}
+input#side-input {
+  display: none;
+}
+#side-label {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  background-image: url(../assets/icons/menu.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+}
+input:checked ~ #side-label {
+  background-image: url(../assets/icons/close.png);
+}
+input:checked ~ .menu {
+  max-height: 200px;
+}
+
+
+footer {
+  background-color: var(--blue-dark);
+  color: var(--gray-100);
+  padding: 50px 0px;
+}
+.socials-cont {
+  display: flex;
+}
+img.social-icon {
+  margin: 10px 10px 10px 0px;
+  width: 18px;
+  height: 18px;
+}
+
+footer .foots {
+  margin: 40px 0px;
+}
+.foots-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.foots-items li {
+  margin: 5px 0px;
+}
+
+.foots input {
+  background: var(--white-100);
+  box-shadow: 0px 9px 22px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  padding: 10px 20px;
+  width: 145px;
+}
+footer .copyright{
+    margin-top: 100px;
+    padding: 20px 0px;
+}
+
+
+
+@media screen and (min-width: 1280px) {
+  .content-container .content {
+    padding: 0px 60px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .foots-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  footer .foots{
+    margin: 20px 0px;
+}
+}
+@media screen and (min-width: 640px) {
+  .content-container .content {
+    padding: 0px 40px;
+  }
+  #side-label {
+    display: none;
+  }
+  .nav-links-cont {
+    display: flex;
+    align-items: center;
+  }
+  .menu {
+    display: none;
+  }
+}
+
+/*
+  xs: 0,
+  sm: 640px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1280px,
+  xxl: 1536px
+*/
