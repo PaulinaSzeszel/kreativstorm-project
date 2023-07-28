@@ -1,17 +1,14 @@
-.contact-page-main section {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
+
 .contact-sect1{
     text-align: center;
 }
 .contact-sect2{
-    background-color: #f9fcff;
+    background-color: var(--blue-light);
     padding: 40px 0px;
 }
-.contact-sect2>div{
+/* .contact-sect2>div{
     padding: 40px 0px;
-}
+} */
 .contact-sect2 h2{
     text-align: center;
 }
@@ -32,6 +29,7 @@
   display: flex;
   flex-direction: column;
   padding: 10px;
+  min-width: 120px;
 }
 .contact-form p {
   margin: 20px auto;
@@ -56,7 +54,6 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  margin-bottom: 40px;
 }
 .contact-card div {
   margin: 10px 0px;

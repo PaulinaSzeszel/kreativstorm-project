@@ -11,7 +11,7 @@
 
 <body>
   <header>
-    <nav>
+    <nav id="nav-top">
       <div class="content-container">
         <div class=" content">
           <div class=" nav-content">
@@ -29,9 +29,11 @@
                 <a href="./pages/contact.html">Contact</a>
               </li>
               <li>
-                <button class="signup-btn">
-                  <a href="./pages/contact.html">Signup</a>
-                </button>
+                <a href="./pages/contact.html#contact-sect2">
+                  <button class="btn-blue txt-18">
+                    Signup
+                  </button>
+                </a>
               </li>
             </ul>
           </div>
@@ -61,126 +63,135 @@
 
     </nav>
   </header>
-  <section class="hero">
-    <div class="container">
-      <div class="left-box">
-        <h1 class="main-text">Summer camps for children</h1>
-        <p class="hero-text">
-          Every week, the children embark on a new adventure. Putting their
-          knowledge into practice in a playful context guarantees they learn
-          and have fun.
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="left-box">
+          <h1 class="main-text">Summer camps for children</h1>
+          <p class="hero-text">
+            Every week, the children embark on a new adventure. Putting their
+            knowledge into practice in a playful context guarantees they learn
+            and have fun.
+          </p>
+          <button class="btn-signup">Sign up</button>
+        </div>
+        <div class="right-box">
+          <img src="./assets/images/hero-img.jpg" alt="kids" class="img-hero" />
+        </div>
+      </div>
+    </section>
+    <section>
+      <h1 class="info">What do the camps consist of?</h1>
+      <div class="blocks">
+        <div class="first-block">
+          <img src="./assets/icons/game.svg" alt="game" class="icon-game" />
+          <p>
+            Psychomotor games and activities designed to bring the group
+            together.
+          </p>
+        </div>
+        <div class="second-block">
+          <img src="./assets/icons/band.svg" alt="band" class="icon-band" />
+          <p>
+            Our very own songs that revolve around the theme, designed to be
+            sung and danced to!
+          </p>
+        </div>
+        <div class="third-block">
+          <img src="./assets/icons/crafts.svg" alt="crafts" class="icon-crafts" />
+          <p>
+            We make crafts related to the weekly theme (masks, costumes, animal
+            figures... and much more!).
+          </p>
+        </div>
+        <div class="fourth-block">
+          <img src="./assets/icons/book.svg" alt="book" class="icon-book" />
+          <p>
+            Stories developed by our content creators, adapted to the age range
+            and theme of each week.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="quote-block">
+      <div class="quote">
+        <p class="quote-text">
+          “You cannot dream of becoming something you do not know about. You
+          have to learn to dream big. Education exposes you to what the world
+          has to offer, to the possibilities open to you.”
         </p>
-        <button class="btn-signup">Sign up</button>
+        <p class="author">—Sonia Sotomayor</p>
       </div>
-      <div class="right-box">
-        <img src="./assets/images/hero-img.jpg" alt="kids" class="img-hero" />
+    </section>
+    <section class="join-us-block">
+      <div class="join-us">
+        <h1 class="join-us-heading">Join to us!</h1>
+        <p class="join-us-text">
+          Take the first step so that your children can attend one of our
+          courses and learn a lot!
+        </p>
       </div>
+      <button class="btn-join-us">Join us</button>
+    </section>
+    <div class="to-top-cont">
+      <a href="#nav-top">
+        <button>
+          <img src="./assets/icons/to-top.svg" alt="up_arrow" />
+        </button>
+      </a>
     </div>
-  </section>
-  <section>
-    <h1 class="info">What do the camps consist of?</h1>
-    <div class="blocks">
-      <div class="first-block">
-        <img src="./assets/icons/game.svg" alt="game" class="icon-game" />
-        <p>
-          Psychomotor games and activities designed to bring the group
-          together.
-        </p>
-      </div>
-      <div class="second-block">
-        <img src="./assets/icons/band.svg" alt="band" class="icon-band" />
-        <p>
-          Our very own songs that revolve around the theme, designed to be
-          sung and danced to!
-        </p>
-      </div>
-      <div class="third-block">
-        <img src="./assets/icons/crafts.svg" alt="crafts" class="icon-crafts" />
-        <p>
-          We make crafts related to the weekly theme (masks, costumes, animal
-          figures... and much more!).
-        </p>
-      </div>
-      <div class="fourth-block">
-        <img src="./assets/icons/book.svg" alt="book" class="icon-book" />
-        <p>
-          Stories developed by our content creators, adapted to the age range
-          and theme of each week.
-        </p>
-      </div>
-    </div>
-  </section>
-  <section class="quote-block">
-    <div class="quote">
-      <p class="quote-text">
-        “You cannot dream of becoming something you do not know about. You
-        have to learn to dream big. Education exposes you to what the world
-        has to offer, to the possibilities open to you.”
-      </p>
-      <p class="author">—Sonia Sotomayor</p>
-    </div>
-  </section>
-  <section class="join-us-block">
-    <div class="join-us">
-      <h1 class="join-us-heading">Join to us!</h1>
-      <p class="join-us-text">
-        Take the first step so that your children can attend one of our
-        courses and learn a lot!
-      </p>
-    </div>
-    <button class="btn-join-us">Join us</button>
-  </section>
+  </main>
   <footer>
     <div class="content-container">
-        <div class="content">
-            <div class="foots-cont">
-                <div class="foots">
-                    <span class="txt-24">Logo Here</span>
-                    <div class="socials-cont">
-                        <img class="social-icon" src="./assets/icons/twitter.svg" alt="twitter" />
-                        <img class="social-icon" src="./assets/icons/facebook.svg" alt="facebook" />
-                        <img class="social-icon" src="./assets/icons/instagram.svg" alt="instagram" />
-                    </div>
-                </div>
-                <div class="foots">
-                    <div class="foots-title">
-                        company
-                    </div>
-                    <ul class="foots-items">
-                        <li> <a href="./pages/about.html">About</a></li>
-                        <li>
-                            <a href="./pages/courses.html"> Courses</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="foots">
-                    <div class="foots-title">
-                        contact us
-                    </div>
-                    <ul class="foots-items">
-                        <li>Some location, SA</li>
-                        <li>info@company.com</li>
-                    </ul>
-                </div>
-                <div class="foots">
-                    <div class="foots-title">
-                        sign up to mailing list
-                    </div>
-                    <div class="foots-items">
-                        <form>
-                            <input placeholder="Email Address" />
-                            <button class="btn-blue">Signup</button>
-                        </form>
-                    </div>
-                </div>
+      <div class="content">
+        <div class="foots-cont">
+          <div class="foots">
+            <span class="txt-24">Logo Here</span>
+            <div class="socials-cont">
+              <img class="social-icon" src="./assets/icons/twitter.svg" alt="twitter" />
+              <img class="social-icon" src="./assets/icons/facebook.svg" alt="facebook" />
+              <img class="social-icon" src="./assets/icons/instagram.svg" alt="instagram" />
             </div>
-            <div class="copyright">
-                <span>© 2023 Name. All rights reserved.</span>
-
+          </div>
+          <div class="foots">
+            <div class="foots-title">
+              company
             </div>
+            <ul class="foots-items">
+              <li> <a href="./pages/about.html">About</a></li>
+              <li>
+                <a href="./pages/courses.html"> Courses</a>
+              </li>
+            </ul>
+          </div>
+          <div class="foots">
+            <div class="foots-title">
+              contact us
+            </div>
+            <ul class="foots-items">
+              <li>Some location, SA</li>
+              <li>info@company.com</li>
+            </ul>
+          </div>
+          <div class="foots">
+            <div class="foots-title">
+              sign up to mailing list
+            </div>
+            <div class="foots-items">
+              <form>
+                <input placeholder="Email Address" />
+                <button class="btn-blue">Signup</button>
+              </form>
+            </div>
+          </div>
         </div>
+        <div class="copyright">
+          <span>© 2023 Name. All rights reserved.</span>
+
+        </div>
+      </div>
     </div>
-</footer>
+  </footer>
 </body>
 
 </html>
