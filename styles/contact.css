@@ -1,0 +1,89 @@
+.contact-page-main section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.contact-sect1{
+    text-align: center;
+}
+.contact-sect2{
+    background-color: #f9fcff;
+    padding: 40px 0px;
+}
+.contact-sect2>div{
+    padding: 40px 0px;
+}
+.contact-sect2 h2{
+    text-align: center;
+}
+.contact-form {
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(112.04deg, #fff, #fcfdfd 130.71%);
+  box-shadow: 0 1px 0 rgba(63, 63, 68, 0.05), 0 1px 3px rgba(63, 63, 68, 0.15);
+  border-radius: 10px;
+  max-width: 600px;
+}
+.contact-form .input-group {
+  display: flex;
+  flex-flow: row wrap;
+}
+.contact-form .input-item {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.contact-form p {
+  margin: 20px auto;
+  text-align: center;
+  max-width: 300px;
+  padding: 10px;
+}
+
+.contact-form .btn-cont {
+  padding: 10px;
+}
+.contact-form button {
+  width: 100%;
+}
+.input-item input {
+  border: 1px solid rgb(226, 232, 240);
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.contact-card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.contact-card div {
+  margin: 10px 0px;
+}
+.contact-address {
+  color: var(--gray-100);
+  background-color: var(--blue-dark);
+  padding: 20px 60px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.contact-address h3 {
+  color: var(--white-100);
+}
+.contact-address ul li {
+  margin: 10px 0px;
+}
+.contact-address button {
+  padding: 10px 20px;
+  background: var(--white-100);
+}
+.contact-img {
+  background-color: #eff5f6;
+  height: 400px;
+}
+.contact-img img {
+  min-width: 200px;
+  width: auto;
+  height: 100%;
+}
