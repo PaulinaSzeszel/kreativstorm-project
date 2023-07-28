@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <nav>
+        <nav id="nav-top">
             <div class="content-container">
                 <div class=" content">
                     <div class=" nav-content">
@@ -29,9 +29,11 @@
                                 <a href="../pages/contact.html">Contact</a>
                             </li>
                             <li>
-                                <button class="signup-btn">
-                                    <a href="../pages/contact.html">Signup</a>
-                                </button>
+                                <a href="../pages/contact.html#contact-sect2">
+                                    <button class="btn-blue txt-18">
+                                        Signup
+                                    </button>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -62,7 +64,7 @@
         </nav>
     </header>
     <main class="contact-page-main">
-        <section class="content-container">
+        <section class="content-container section-v-pad">
             <div class="content contact-sect1">
 
                 <h2>Contact us</h2>
@@ -72,8 +74,8 @@
             </div>
         </section>
         <section class="content-container">
-            <div class="content contact-sect2">
-                <div>
+            <div id="contact-sect2" class="content contact-sect2">
+                <div class="section-v-pad">
                     <h2>Send us a message</h2>
                     <div>
                         <form class="contact-form">
@@ -107,7 +109,7 @@
                 </div>
             </div>
         </section>
-        <section class="content-container">
+        <section class="content-container section-v-pad">
             <div class="content">
                 <div class="contact-card">
                     <div class="contact-address">
@@ -125,6 +127,13 @@
                 </div>
             </div>
         </section>
+        <div class="to-top-cont">
+            <a href="#nav-top">
+                <button>
+                    <img src="../assets/icons/to-top.svg" alt="up_arrow" />
+                </button>
+            </a>
+        </div>
     </main>
     <footer>
         <div class="content-container">
