@@ -23,14 +23,14 @@
   color: var(--gray-100);
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-family: inherit;
   margin: 0;
   min-width: 250px;
@@ -157,6 +157,7 @@ footer {
   background-color: var(--blue-dark);
   color: var(--gray-100);
   padding: 50px 0px;
+  margin-top: 60px;
 }
 .socials-cont {
   display: flex;
