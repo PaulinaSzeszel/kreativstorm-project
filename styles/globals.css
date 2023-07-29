@@ -58,7 +58,7 @@
 
 /* Light Italic */
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto Light';
   font-weight: 300;
   font-style: italic;
   src: url(/assets/fonts-roboto//Roboto/Roboto-LightItalic.ttf) format('truetype');
