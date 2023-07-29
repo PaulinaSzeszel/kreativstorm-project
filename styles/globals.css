@@ -250,41 +250,16 @@ input:checked ~ .menu {
 footer {
   background-color: var(--blue-dark);
   color: var(--gray-100);
-  padding: 50px 0px;
+  padding: 40px 0px;
   margin-top: 60px;
 }
-.socials-cont {
-  display: flex;
-}
-img.social-icon {
-  margin: 10px 10px 10px 0px;
-  width: 18px;
-  height: 18px;
+
+.copyright{
+  text-align: center;
 }
 
-footer .foots {
-  margin: 40px 0px;
-}
-.foots-title {
-  text-transform: uppercase;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-.foots-items li {
-  margin: 5px 0px;
-}
 
-.foots input {
-  background: var(--white-100);
-  box-shadow: 0px 9px 22px rgba(0, 0, 0, 0.05);
-  border-radius: 4px;
-  padding: 10px 20px;
-  width: 145px;
-}
-footer .copyright {
-  margin-top: 100px;
-  padding: 20px 0px;
-}
+
 
 @media screen and (min-width: 1280px) {
   .content-container .content {
