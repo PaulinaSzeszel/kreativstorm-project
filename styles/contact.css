@@ -1,16 +1,15 @@
-
-.contact-sect1{
-    text-align: center;
+.contact-sect1 {
+  text-align: center;
 }
-.contact-sect2{
-    background-color: var(--blue-light);
-    padding: 40px 0px;
+.contact-sect2 {
+  background-color: var(--blue-light);
+  padding: 40px 0px;
 }
 /* .contact-sect2>div{
     padding: 40px 0px;
 } */
-.contact-sect2 h2{
-    text-align: center;
+.contact-sect2 h2 {
+  text-align: center;
 }
 .contact-form {
   margin: 0 auto;

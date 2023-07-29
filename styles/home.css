@@ -91,13 +91,10 @@
 }
 
 .quote-text {
-  font-family: Roboto Light;
   font-size: 36px;
   font-style: italic;
-  font-weight: 100;
-
 }
-.author-cont{
+.author-cont {
   display: flex;
   justify-content: flex-end;
 }
@@ -135,8 +132,7 @@
 
 .btn-join-us {
   background-color: transparent;
-  flex: 0.5;
-  height: 35%;
+  padding: 5px 14px;
   border: 2px #1f2937;
   color: #e5e7eb;
   font-size: 18px;
