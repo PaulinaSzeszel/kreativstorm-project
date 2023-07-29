@@ -1,0 +1,22 @@
+.course_item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course_item div,p {
+    padding: 0px 10px;
+
+}
+
+.course_item p {
+    max-width: 600px;
+   
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.content h1 {
+    margin-left: 300px;
+}
